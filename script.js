@@ -41,7 +41,7 @@ if (isValid) {
     feedbackDiv.style.color = "#28a745";
 } else {
     feedbackDiv.innerHTML = messages.join("<br>");
-    feedbackDiv.style.color = "#d9534f";
+    feedbackDiv.style.color = "#dc3545";
 }
 
 
