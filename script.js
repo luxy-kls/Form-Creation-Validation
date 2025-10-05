@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     //Ensuring the everything is done before it is loaded
-    const form = document.getElementById("registeration-form");
+    const form = document.getElementById("registration-form");
    
     //selecting form-feedback
     const feedbackDiv = document.getElementById("form-feedback");
