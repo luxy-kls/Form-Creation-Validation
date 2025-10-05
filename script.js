@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () =>{
+document.addEventListener("DOMContentLoaded", function() {
     //Ensuring the everything is done before it is loaded
     const form = document.getElementById("registeration-form");
    
@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () =>{
     const feedbackDiv = document.getElementById("form-feedback");
     
     //adding event listener
-    form.addEventListener("submit", (event) => {
+    form.addEventListener("submit", function (event) {
         event.preventDefault();
     
     //retrieving User Inputs
@@ -46,4 +46,4 @@ if (isValid) {
 
 
     }) 
-})
+});
